@@ -1,10 +1,10 @@
 {
   "name": "MicroSDeck",
   "author": "CEbbinghaus",
-  "flags": ["debug"],
+  "flags": ["debug", "_root"],
   "publish": {
-    "tags": ["microsd", "sdcard", "manager"],
+    "tags": ["microsd", "root"],
     "description": "A plugin to manage MicroSD cards.",
-    "image": "https://raw.githubusercontent.com/CEbbinghaus/MicroSDeck/master/assets/Logo.png"
+    "image": "https://raw.githubusercontent.com/CEbbinghaus/MicroSDeck/master/Logo.png"
   }
 }

@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"outDir": "build/dist",
 		"module": "ESNext",
 		"target": "ES2020",
 		"jsx": "react",
@@ -19,6 +20,6 @@
 		"allowSyntheticDefaultImports": true,
 		"skipLibCheck": true
 	},
-	"include": ["src", "lib", "docs"],
+	"include": ["src", "lib"],
 	"exclude": ["node_modules"]
 }
