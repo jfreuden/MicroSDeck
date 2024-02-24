@@ -334,7 +334,7 @@ pub(crate) async fn create_link(
 	datastore.link(&body.game_id, &body.card_id)?;
 
 	trace!("Sending Updated event");
-	_ = sender.send(CardEvent::Updated);
+	_ = sneder.send(CardEvent::Updated);
 	Ok(HttpResponse::Ok())
 }
 
